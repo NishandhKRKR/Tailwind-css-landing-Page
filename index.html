@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="assets/fingerprint1.png"
+      type="image/x-icon"
+    />
+    <title>Askme dentity</title>
+
+    <!-- Tail wind css cdn  -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- font family  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Righteous&family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- color ttheme part  -->
+
+    <style type="text/tailwindcss">
+      @theme {
+        --font-right-all: "Righteous", sans-serif;
+        --font-poppins: "Poppins", "sans-serif";
+
+        --color-cont-white: #ffffff;
+
+        --color-tex-blue: #0e38cd;
+
+        /* gradient 1  */
+
+        --color-grad-blue: #531fb5;
+
+        --color-grad-dblue: #24348c;
+
+        /* learn part gradient 2 */
+
+        --color-grad2-lblue: #739fe8;
+
+        --color-grad2-dblue: #4f18ca;
+
+        /* categories gradient 3 */
+
+        --color-grad3-whitegrad: #d9ecff;
+
+        --color-grad3-lightwhite: #d9ecff;
+
+        /* footer gradient 4 */
+
+        --color-grad4-purp: #477ae3;
+
+        --color-grad4-dpurp: #931bbd;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- navigation and header part -->
+    <header class="shadow-sm">
+      <nav
+        class="container w-[100%] h-[119px] mx-auto flex flex-wrap justify-between items-center"
+      >
+        <div
+          class="flex justify-center items-end sm:justify-start lg:justify-center lg:h-[110px] md:w-[20%] lg:w-[25%]"
+        >
+          <img
+            class="h-[50px] sm:h-[60px] md:h-[80px] lg:h-95px]"
+            src="assets/logo.svg"
+            alt=""
+          />
+        </div>
+        <div
+          class="flex flex-wrap md:w-[80%] lg:w-[75%] justify-end md:justify-center items-center"
+        >
+          <div class="hidden md:w-[55%] lg:w-[49%] md:block">
+            <ul class="flex flex-wrap justify-center md:space-x-6">
+              <li><a class="md:text-[20px] font-bold" href="#">Home</a></li>
+              <li><a class="md:text-[20px] font-bold" href="#">About</a></li>
+              <li><a class="md:text-[20px] font-bold" href="#">Courses</a></li>
+              <li><a class="md:text-[20px] font-bold" href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="w-[25%] hidden md:block">
+            <ul class="flex space-x-7">
+              <li>
+                <img
+                  class="sm:h-5 lg:h-auto cursor-pointer"
+                  src="assets/cart.svg"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  class="sm:h-5 lg:h-auto cursor-pointer"
+                  src="assets/contact.svg"
+                  alt=""
+                />
+              </li>
+              <li>
+                <img
+                  class="sm:h-5 lg:h-auto cursor-pointer"
+                  src="assets/search.svg"
+                  alt=""
+                />
+              </li>
+            </ul>
+          </div>
+
+          <div
+            class="flex flex-wrap mr-8 md:mr-0 justify-start space-x-5 md:w-[20%] lg:w-[26%]"
+          >
+            <button
+              type="submit"
+              class="cursor-pointer text-[14px] lg:text-[20px] underline"
+            >
+              Login
+            </button>
+            <button
+              type="submit"
+              class="cursor-pointer bg-gradient-to-r from-grad-blue to-grad-dblue text-white text-[14px] lg:w-[138px] lg:h-[60px] lg:text-[20px] px-3 py-2 rounded-lg"
+            >
+              Signup
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero section part  -->
+    <main
+      class="bg-gradient-to-r from-grad-blue via-grad-dblue to-grad-dblue font-right-all w-full sm:h-[1000px] md:h-[1120px] lg:h-[785px] h-[850px]"
+    >
+      <!-- main div  -->
+      <div class="container lg:flex lg:flex-wrap w-[80%] mx-auto">
+        <!-- left div  -->
+        <div class="pt-16 md:mt-0 lg:mt-[100px] w-[100%] lg:w-[50%]">
+          <p
+            class="tracking-[3px] md:text-center lg:text-start text-center opacity-[80%] text-[14px] sm:text-[18px] text-cont-white"
+          >
+            Successful coaches are visionaries
+          </p>
+
+          <h1
+            class="text-[30px] md:text-[55px] pt-4 sm:text-[50px] lg:text-[60px] md:text-center lg:text-start text-center text-cont-white"
+          >
+            Good <span class="text-tex-blue">coaching</span> is good teaching &
+            nothing else.
+          </h1>
+
+          <div
+            class="flex justify-center sm:flex sm:justify-center md:justify-center lg:flex lg:justify-start items-center mt-[60px] mb-[50px] space-x-6"
+          >
+            <button
+              type="submit"
+              class="w-[194px] border rounded-lg text-white h-[60px]"
+            >
+              View Courses
+            </button>
+            <p class="text-cont-white">Get Free Consultation</p>
+          </div>
+
+          <!-- search part  -->
+          <div class="flex justify-center">
+            <div
+              class="w-[489px] flex lg:flex flex-wrap justify-around rounded-md mb-[100px] h-[70px] bg-cont-white"
+            >
+              <input
+                class="h-[70px]"
+                type="text"
+                placeholder="What do you want to learn today?"
+              />
+              <button class="flex h-[70px] items-center p-8">
+                <img class="w-[20px]" src="assets/search.svg" alt="search" />
+                Search
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- right div  -->
+
+        <div
+          class="w-[100%] lg:w-[50%] flex justify-center lg:flex flex-wrap relative"
+        >
+          <img
+            class="absolute lg:top-20 lg:left-30"
+            src="assets/crt.png"
+            alt=""
+          />
+
+          <img
+            class="absolute h-[400px] md:h-[600px] md:w-[350px] lg:h-[700px] lg:top-20 lg:left-35"
+            src="assets/brunette-woman-hugging-laptop_1-removebg-preview.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </main>
+
+    <!-- brand logo part  -->
+
+    <!-- courses part  -->
+
+    <!-- learn cources part  -->
+
+    <!-- Catagories part  -->
+
+    <!-- Subscriber part  -->
+
+    <!-- video part  -->
+
+    <!-- Testimonial part  -->
+
+    <!-- footer part  -->
+  </body>
+</html>
