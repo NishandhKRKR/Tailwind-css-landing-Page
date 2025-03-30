@@ -35,6 +35,8 @@
 
         /* gradient 1  */
 
+        --color-brand-new:#7268de;
+
         --color-grad-blue: #531fb5;
 
         --color-grad-dblue: #24348c;
@@ -134,7 +136,7 @@
 
     <!-- hero section part  -->
     <main
-      class="bg-gradient-to-r from-grad-blue via-grad-dblue to-grad-dblue font-right-all w-full sm:h-[1000px] md:h-[1120px] lg:h-[785px] h-[850px]"
+      class="bg-gradient-to-r from-grad-blue via-grad-dblue to-grad-dblue font-right-all w-full sm:h-[995px] md:h-[1150px] lg:h-[800px] h-[820px]"
     >
       <!-- main div  -->
       <div class="container lg:flex lg:flex-wrap w-[80%] mx-auto">
@@ -168,14 +170,16 @@
           <!-- search part  -->
           <div class="flex justify-center">
             <div
-              class="w-[489px] flex lg:flex flex-wrap justify-around rounded-md mb-[100px] h-[70px] bg-cont-white"
+              class="w-[489px] sm:w-[489px] md:w-[489px] flex lg:flex flex-wrap justify-between pl-[2px] pr-[2px] sm:justify-around rounded-md mb-0 sm:mb-[90px] lg:mb-[60px] h-[70px] bg-cont-white items-center"
             >
               <input
                 class="h-[70px]"
                 type="text"
                 placeholder="What do you want to learn today?"
               />
-              <button class="flex h-[70px] items-center p-8">
+              <button
+                class="flex gap-3 rounded-lg h-[50px] bg-gradient-to-r from-grad-blue to-grad-dblue text-white text-[14px] items-center pl-3 pr-5 sm:pl-5 sm:pr-7"
+              >
                 <img class="w-[20px]" src="assets/search.svg" alt="search" />
                 Search
               </button>
@@ -189,13 +193,13 @@
           class="w-[100%] lg:w-[50%] flex justify-center lg:flex flex-wrap relative"
         >
           <img
-            class="absolute lg:top-20 lg:left-30"
+            class="absolute h-[320px] md:h-[500px] sm:bottom-0-0 lg:top-20 lg:left-30"
             src="assets/crt.png"
             alt=""
           />
 
           <img
-            class="absolute h-[400px] md:h-[600px] md:w-[350px] lg:h-[700px] lg:top-20 lg:left-35"
+            class="absolute h-[320px] md:h-[520px] sm:w-[250px] sm:top-0 sm:left-30 md:w-[350px] lg:h-[700px] lg:top-20 lg:left-35"
             src="assets/brunette-woman-hugging-laptop_1-removebg-preview.png"
             alt=""
           />
@@ -204,6 +208,21 @@
     </main>
 
     <!-- brand logo part  -->
+
+    <section class="bg-gradient-to-r from-grad-blue via-grad-dblue to-brand-new border-t text-white">
+      <div class="container mx-auto md:w-[80%] h-auto ">
+        <div class="flex pb-8 pt-10 flex-wrap flex-col justify-center gap-10 sm:flex sm:flex-row sm:flex-wrap  sm:justify-between sm:items-center md:flex md:flex-row md:flex-wrap md:justify-between md:items-center ">
+          <img src="assets/Link ⏵ brand6.png.svg" alt="">
+          <img src="assets/amazon logo.svg" alt="">
+          <img src="assets/Link ⏵ brand6.png.svg" alt="">
+          <img src="assets/cisco.svg" alt="">
+          <img src="assets/logitech.svg" alt="">
+          <img src="assets/amazon logo.svg" alt="">
+        </div>
+
+
+      </div>
+    </section>
 
     <!-- courses part  -->
 
